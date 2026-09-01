@@ -1,3 +1,4 @@
+
 From Delivery to Best Practice: A Retail Analytics Engineering Retrospective
 
 I spent 15 years driving businesses with data before I ever built a data pipeline. I've worked in companies where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. It's the difference between a business that runs on evidence and one that runs on argument.
@@ -8,6 +9,7 @@ The project
 
 Earlier this year I designed and delivered a complete analytics platform for a UK luxury department store — a fast-scaling business where the commercial director was losing three days a month to manual Shopify exports and spreadsheet reporting. The platform:
 
+<img width="2613" height="1848" alt="Notes_260901_134046" src="https://github.com/user-attachments/assets/a7738b8c-fc45-41ac-bcdd-bba5f644691e" />
 - Raw Shopify and buying data → BigQuery
 - Transformation and modeling in dbt/Dataform — staging, intermediate, and mart layers
 - Reporting in Looker dashboards — monthly trade reporting, season snapshots
