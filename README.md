@@ -10,10 +10,10 @@ The project
 Earlier this year I designed and delivered a complete analytics platform for a UK luxury department store — a fast-scaling business where the commercial director was losing three days a month to manual Shopify exports and spreadsheet reporting. The platform:
 
 <img width="2613" height="1848" alt="Notes_260901_134046" src="https://github.com/user-attachments/assets/a7738b8c-fc45-41ac-bcdd-bba5f644691e" />
-- Raw Shopify and buying data → BigQuery
-- Transformation and modeling in dbt/Dataform — staging, intermediate, and mart layers
-- Reporting in Looker dashboards — monthly trade reporting, season snapshots
-- Forecasting tools in Google Sheets, plugged directly into the data models, so the commercial team could plan pre-season buys and forecast sales without touching SQL
+1. Raw Shopify and buying data → BigQuery
+2. Transformation and modeling in dbt/Dataform — staging, intermediate, and mart layers
+3. Reporting in Looker dashboards — monthly trade reporting, season snapshots
+4. Forecasting tools in Google Sheets, plugged directly into the data models, so the commercial team could plan pre-season buys and forecast sales without touching SQL
 
 It's live, it works, it's used, and the client is happy.
 
