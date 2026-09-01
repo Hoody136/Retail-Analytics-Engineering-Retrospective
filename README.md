@@ -12,7 +12,7 @@ Earlier this year I designed and delivered a complete analytics platform for a U
 <img width="2613" height="1848" alt="Notes_260901_135840" src="https://github.com/user-attachments/assets/eaf97e7a-93b9-4f39-96de-80bbcd76e909" />
 
 1. Raw Shopify and buying data → BigQuery
-2. Transformation and modeling in dbt/Dataform — staging, intermediate, and mart layers
+2. Transformation and modeling in dbt/Dataform — staging, intermediate, and mart layers *dbt was initially used, but then I moved the project to Dataform to save the client the enterprise cost of dbt and to give them more flexibility.
 3. Reporting in Looker dashboards — monthly trade reporting, season snapshots
 4. Forecasting tools in Google Sheets, plugged directly into the data models, so the commercial team could plan pre-season buys and forecast sales without touching SQL
 
