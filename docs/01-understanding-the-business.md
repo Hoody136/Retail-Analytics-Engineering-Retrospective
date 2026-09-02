@@ -60,18 +60,24 @@ Two things from this phase turned out to be worth more than a formal process wou
 
 ---
 
-## The questions — asked vs. unasked
+## The questions — asked vs. not asked
 
 Kimball's interview flow, mapped against what actually happened:
 
 | Kimball's question | Did I ask it? | What happened |
 
 | What are your responsibilities, where do you fit in the org? | Skipped — known | We'd worked on the same team. No icebreaker needed. |
+
 | What are your key performance metrics? | Yes, implicitly | Sell-through, markdown, stock cover, profitability — shared vocabulary from day one |
+
 | What do you *do* when a number moves? | Yes, implicitly | Markdown action, rebuys, OTB commitments — this shaped the deliverables |
+
 | Walk me through the spreadsheets you rely on | **Yes — deliberately** | Found the 3-day monthly reporting cycle, the fragmented range plans, the manual exports |
+
 | What's your 2–3 year vision for information? | **No** | Never asked the owner. The commercial director was the audience for everything; the owner consumed her deck second-hand |
+
 | What's the measurable impact of better information? | Yes | ~3 days/month recovered. Later, a concrete cost call: moved the platform from dbt Cloud to Dataform because €100/month per seat wasn't justifiable for handover |
+
 | What are your specific success criteria? | **No** | Deliverables agreed in conversation, never written down |
 
 The two gaps are honest ones. On a single-stakeholder project the missing executive interview is survivable — but I was one relationship away from building for the wrong audience, and I got lucky that I wasn't.
@@ -87,12 +93,19 @@ The two gaps are honest ones. On a single-stakeholder project the missing execut
 | Business process | Robena (Commercial Director) | Brand Partners |
 
 | Retail sales (online) | X | |
+
 | Sample sales (3rd-party liquidation) | X | |
+
 | Sell-through reporting | X | X |
+
 | Inventory quality & profit opportunity | X | |
+
 | Pre-season planning / OTB | X | |
+
 | Sales forecasting & cash flow | X | |
+
 | ~~Stock snapshot history~~ | *out of scope — phase 2* | |
+
 | ~~Intake / inbound deliveries~~ | *out of scope — phase 2* | |
 
 <img width="1848" height="2613" alt="1 Data warehouse toolkit - Raph Kimball_260902_143117" src="https://github.com/user-attachments/assets/eabefde7-7269-4790-8641-5b27a6295b1a" />
