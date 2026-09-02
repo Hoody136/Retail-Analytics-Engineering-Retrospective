@@ -1,6 +1,6 @@
 # 01 — Understanding the Business Before Touching Data
 
-*Framework sources: Kimball, The Data Warehouse Toolkit (Ch. 1–2, 17); Analytics Engineering (Ch. 1–2)*
+*Framework sources: Kimball, The Data Warehouse Toolkit Ralph Kimball & Margy Ross (Ch. 1–2, 17); Analytics Engineering with SQL and DBT Rui Machado & Helder Russa (Ch. 1–2)*
 
 ---
 
@@ -56,7 +56,7 @@ Two things from this phase turned out to be worth more than a formal process wou
 3. **No enrichment in Shopify at all.** No category, no cost price, no RRP — which means no profit visibility from the raw source. The range sheets were the donor for all of it: category, sub-category, brand, gender, colour, size, cost, RRP, season, SKU, quantities ordered and received. The integrity of every downstream report depended on those sheets being maintained — current SKUs, no duplicates, received and on-order quantities kept up to date. I made that explicit to Robena from day one.
 4. **Inventory and orders don't mix in one report.** With multiple order lines per style, adding inventory into an orders-based report means double-counted stock. So inventory got its own report. I didn't have the vocabulary for it then, but this is a *grain conflict* — the single most important concept in dimensional modeling, caught in a Google Sheet before a line of SQL was written.
 
-**What I didn't do:** write any of it down. No findings document, no agreed success criteria, nothing in writing about scope. It worked because there were two of us and we trusted each other. If I'd been hit by a bus, the rationale for every decision lived in my head.
+**What I didn't do:** write any of it down. No findings document, no agreed success criteria, nothing in writing about scope. It worked because there were two of us and we trusted each other. If I'd been hit by a bus (god forbid), the rationale for every decision lived in my head.
 
 ---
 
@@ -65,7 +65,7 @@ Two things from this phase turned out to be worth more than a formal process wou
 Kimball's interview flow, mapped against what actually happened:
 
 | Kimball's question | Did I ask it? | What happened |
-|---|---|---|
+
 | What are your responsibilities, where do you fit in the org? | Skipped — known | We'd worked on the same team. No icebreaker needed. |
 | What are your key performance metrics? | Yes, implicitly | Sell-through, markdown, stock cover, profitability — shared vocabulary from day one |
 | What do you *do* when a number moves? | Yes, implicitly | Markdown action, rebuys, OTB commitments — this shaped the deliverables |
@@ -85,7 +85,7 @@ The two gaps are honest ones. On a single-stakeholder project the missing execut
 *Book version: business processes as rows, business functions as columns, X where a function depends on that process. This project's reality: one primary audience, plus brand partners for a single report.*
 
 | Business process | Robena (Commercial Director) | Brand Partners |
-|---|:-:|:-:|
+
 | Retail sales (online) | X | |
 | Sample sales (3rd-party liquidation) | X | |
 | Sell-through reporting | X | X |
@@ -95,9 +95,9 @@ The two gaps are honest ones. On a single-stakeholder project the missing execut
 | ~~Stock snapshot history~~ | *out of scope — phase 2* | |
 | ~~Intake / inbound deliveries~~ | *out of scope — phase 2* | |
 
-[sketch: hand-drawn version of this matrix]
+<img width="1848" height="2613" alt="1 Data warehouse toolkit - Raph Kimball_260902_143117" src="https://github.com/user-attachments/assets/eabefde7-7269-4790-8641-5b27a6295b1a" />
 
-The struck-through rows are Kimball's prioritisation grid in action. Stock history had no capture process (Shopify stock is a live feed only) and intake lived in a messy multi-source spreadsheet — both were projects in themselves, and the goal was something useful fast. Scoping them out *was* the framework working; I just did it in conversation instead of on paper.
+The struck-through rows are Kimball's prioritisation grid in action. Stock history had no capture process (Shopify stock is a live feed only) and intake lived in a messy multi-source spreadsheet — both were projects in themselves, and the goal was an analytics solution fast that could help drive data driven decisions. Scoping them out *was* the framework working; I just did it in conversation instead of on paper.
 
 ### B — Source Feasibility Checklist
 
