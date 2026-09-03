@@ -27,7 +27,7 @@ So this repo is me going back through the project properly, against the establis
 It's a retrospective, not a rebuild. The code examples are real (anonymised), the mistakes are real, and the reasoning is the point.
 
 Architecture
-[diagram: Shopify → BigQuery → Dataform layers → Looker + Sheets]
+
 
 The framework
 I structured the retrospective around the six phases of an analytics engineering project:
