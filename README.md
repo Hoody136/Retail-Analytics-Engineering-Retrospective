@@ -1,7 +1,7 @@
 
 From Delivery to Best Practice: A Retail Analytics Engineering Retrospective
 
-I spent 15 years driving businesses with data before I ever built a data pipeline. I've worked in companies where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. It's the difference between a business that runs on evidence and one that runs on argument.
+I spent 15 years driving businesses with data before I ever built a data pipeline. I've worked in companies (eBay, Ralph Lauren, TK Maxx, Zalando, Puma) where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. It's the difference between a business that runs on evidence and one that runs on argument.
 
 That's why I do this work now. I'm passionate about empowering people to make data driven decisions, understand their business and ultimately make happy customers. I think it can be (not always) the difference between loving and hating your work. 
 
