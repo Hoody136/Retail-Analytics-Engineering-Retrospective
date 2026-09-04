@@ -26,7 +26,7 @@ That project was delivered largely on domain instinct. I'm a merchandiser by bac
 
 So this repo is me going back through the project properly, against the established literature — Kimball's Data Warehouse Toolkit, the analytics engineering canon, retail mathematics, and data storytelling — and asking: what did I get right by instinct, where did I get lucky, and what would I do differently?
 
-It's a retrospective, not a rebuild. The code examples are real (anonymised), the mistakes are real, and the reasoning is the point.
+It's a retrospective, not a rebuild. The code examples are real (no business critical/sensitive information is shared), the mistakes are real, and the reasoning is the point.
 
 Architecture
 
