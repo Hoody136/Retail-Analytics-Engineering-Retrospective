@@ -1,6 +1,8 @@
 
 From Delivery to Best Practice: A Retail Analytics Engineering Retrospective
 
+(Repo Work In progress - I decided that, I am not really cementing my understanding and an LLM is doing too much of the cognitive lifting - so I will come back to this Repo and finalize after doing a few more hands on AE projects). 
+
 I spent 15 years driving businesses with data before I ever built a data pipeline, as a Merchandiser. My job, was to ensure that I grow a part of the business profitably by ensuring we purchased the right stock, at the right time, at the right quantity, at the right price. I'd build the plan for a Season (Spring/Summer or Autumn/Winter) months before it would start using data. Then I would 'trade' it once the season started - responding to customer signals, making adjustments. It was intense, but I enjoyed it. I've worked in companies (eBay, Ralph Lauren, TK Maxx, Zalando, Puma) where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. 
 
 It's the difference between a business that runs on evidence and one that runs on argument.
