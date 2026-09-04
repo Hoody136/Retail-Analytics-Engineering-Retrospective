@@ -1,13 +1,15 @@
 
 From Delivery to Best Practice: A Retail Analytics Engineering Retrospective
 
-I spent 15 years driving businesses with data before I ever built a data pipeline. I've worked in companies (eBay, Ralph Lauren, TK Maxx, Zalando, Puma) where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. It's the difference between a business that runs on evidence and one that runs on argument.
+I spent 15 years driving businesses with data before I ever built a data pipeline, as a Merchandiser. My job, was to ensure that I grow a part of the business profitably by ensuring we purchased the right stock, at the right time, at the right quantity, at the right price. I'd build the plan for a Season (Spring/Summer or Autumn/Winter) months before it would start using data. Then I would 'trade' it once the season started - responding to customer signals, making adjustments. It was intense, but I enjoyed it. I've worked in companies (eBay, Ralph Lauren, TK Maxx, Zalando, Puma) where the data foundations were excellent — where a meeting meant everyone looking at the same numbers, agreeing on the opportunity, and executing with confidence. And I've worked in companies where none of that existed, where leadership demanded answers from data that was never engineered to provide them. 
+
+It's the difference between a business that runs on evidence and one that runs on argument.
 
 That's why I do this work now. I'm passionate about empowering people to make data driven decisions, understand their business and ultimately make happy customers. I think it can be (not always) the difference between loving and hating your work. 
 
 The project
 
-Earlier this year I designed and delivered a complete analytics platform for a UK luxury department store — a fast-scaling business where the commercial director was losing three days a month to manual Shopify exports and spreadsheet reporting. The platform:
+In the middle of this year, I started working Fractionally (or, Freelance). I designed and delivered a complete analytics platform for a UK luxury department store — a fast-scaling business where the commercial director was losing three days a month to manual Shopify exports and spreadsheet reporting. The platform:
 
 <img width="2613" height="1848" alt="Notes_260901_135840" src="https://github.com/user-attachments/assets/eaf97e7a-93b9-4f39-96de-80bbcd76e909" />
 
@@ -44,4 +46,4 @@ And the summary: what I'd do differently
 
 If you read nothing else
 
-[one honest, specific lesson — the best one, once we know what it is]
+**[one honest, specific lesson — the best one, once we know what it is]**
